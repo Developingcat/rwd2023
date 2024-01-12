@@ -1,0 +1,66 @@
+/* CSS Document */
+
+/* Student Name: Hannah O'Shea 
+Date: 1/10/2024 
+File Name: styles08extend.css */
+
+
+
+
+
+/*CSS Reset*/
+
+body, table, footer {
+	marigin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style rules for table */
+
+table {
+	font-family: sans-serif, Impact, "Baskerville";
+}
+
+/*Table Header Rules*/
+
+caption {
+	font-weight: bold;
+	color:#380B02;
+}
+
+#term , #seasons {
+	color: #F5E2E3;
+	background-color:#802306;
+	border-color:#F5E2E3;
+}
+
+/*End Header Style Rules */
+/* Table Table Styles */
+table {
+	background-color: #FFE5DC;
+	border-collapse: collapse;
+	border: 4px solid #fd4d0c;
+	margin: 0 auto;
+	width: 100%;
+	box-shadow: 5px 30px 20px 3px #b731Ob;
+}
+
+th, td {
+	border: 1px solid #380B02;
+}
+
+/* Table Style Rules for Alternative Colors */
+
+#rowTwo, #rowFour, #rowSix {
+	background-color:#fe9772;
+}
+
+
+
+/* Footer Style Rules */
+
+footer {
+	font-size: 0.9em;
+	text-align: center;
+}
